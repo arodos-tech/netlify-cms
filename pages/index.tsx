@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Script from "next/script";
 import { Component } from "react";
 import { attributes, react as HomeContent } from "../content/home.md";
 
@@ -9,7 +8,10 @@ export default class Home extends Component {
     return (
       <>
         <Head>
-          <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></Script>
+          <script
+            src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+            async
+          ></script>
         </Head>
         <article>
           <h1>{title}</h1>

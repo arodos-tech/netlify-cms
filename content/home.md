@@ -1,5 +1,5 @@
 ---
-title: Awesome Tool
+title: Awesome Tool 2
 date: 2022-09-20T17:32:00.000Z
 cats: []
 ---
